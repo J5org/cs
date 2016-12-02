@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ruleset name="J5cs">
+  <description>Coding Standard of J5lx</description>
+
+  <rule ref="PSR2" />
+
+  <rule ref="Generic.Arrays.DisallowLongArraySyntax" />
+  <rule ref="Generic.CodeAnalysis.EmptyStatement">
+    <type>warning</type>
+  </rule>
+  <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop" />
+  <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement">
+    <type>error</type>
+  </rule>
+  <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier">
+    <type>error</type>
+  </rule>
+  <rule ref="Generic.CodeAnalysis.UselessOverridingMethod">
+    <type>error</type>
+  </rule>
+  <rule ref="Generic.Commenting.Fixme" />
+  <rule ref="Generic.Commenting.Todo" />
+  <rule ref="Generic.Files.EndFileNewline" />
+  <rule ref="Generic.Files.InlineHTML" />
+  <rule ref="Generic.Files.LineLength">
+    <properties>
+      <property name="lineLimit" value="80"/>
+      <property name="absoluteLineLimit" value="120"/>
+    </properties>
+  </rule>
+  <rule ref="Generic.Files.OneClassPerFile" />
+  <rule ref="Generic.Files.OneInterfacePerFile" />
+  <rule ref="Generic.Files.OneTraitPerFile" />
+  <rule ref="Generic.Formatting.MultipleStatementAlignment">
+    <properties>
+     <property name="error" value="true"/>
+    </properties>
+  </rule>
+  <rule ref="Generic.Formatting.NoSpaceAfterCast" />
+  <rule ref="Generic.Metrics.CyclomaticComplexity" />
+  <rule ref="Generic.PHP.BacktickOperator" />
+  <rule ref="Generic.PHP.Syntax" />
+</ruleset>
