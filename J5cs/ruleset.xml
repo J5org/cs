@@ -22,12 +22,6 @@
   <rule ref="Generic.Commenting.Todo" />
   <rule ref="Generic.Files.EndFileNewline" />
   <rule ref="Generic.Files.InlineHTML" />
-  <rule ref="Generic.Files.LineLength">
-    <properties>
-      <property name="lineLimit" value="80"/>
-      <property name="absoluteLineLimit" value="120"/>
-    </properties>
-  </rule>
   <rule ref="Generic.Files.OneClassPerFile" />
   <rule ref="Generic.Files.OneInterfacePerFile" />
   <rule ref="Generic.Files.OneTraitPerFile" />
